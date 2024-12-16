@@ -1,7 +1,7 @@
 import { ragChat } from "../lib/rag-chat";
 import { redis } from "../lib/redis";
 import { ChatWrapper } from "../components/ChatWrapper";
-import { mockId } from "ai/test";
+// import { mockId } from "ai/test";
 interface PageProps {
     params: {
         url: string | string[] | undefined;
