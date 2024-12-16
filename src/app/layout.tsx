@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, "min-h-screen antialiased")}>
+      <body className={cn(inter.className, "min-h-screen antialiased overflow-hidden")}>
         <Providers>
           <main className="h-screen dark text-foreground bg-background">{children}</main>
         </Providers>
